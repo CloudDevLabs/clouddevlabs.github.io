@@ -79,7 +79,7 @@ img {
 
 .section_header {
 	position: relative;
-	height: 100vh;
+	height: 80vh;
 	width: 100%;
 }
 
@@ -389,13 +389,16 @@ img {
 
 .box_centered {
 	width: 60%;
-   	margin: auto;
-   	margin-top: 30%;
-    background-color: rgba(255, 255, 255, 0.74);
-   	text-align: center;
-   	position: relative;
-   	padding: 20px;
-   	margin-bottom: 5%;
+	margin: auto;
+	margin-top: 20%;
+	margin-bottom: 5%;
+
+	border-radius: 8px;
+	background-color: rgba(255, 255, 255, 0.65);
+	text-align: center;
+	position: relative;
+	padding: 10px;
+	padding-top: 40px;
 }
 
 .box_centered img {
