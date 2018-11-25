@@ -76,28 +76,23 @@ img {
 /*CODE*/
 
 
-
-.section_header {
-	position: relative;
-	height: 80vh;
-	width: 100%;
-}
-
-.body_slides{
+.body_slides {
     list-style:none;
     margin:0;
     padding:0;
     z-index:-5; 
-    background:#fff;}
-.body_slides,
-.body_slides:after{
+	background:#fff;
+}
+
+.body_slides, .body_slides:after {
     position: absolute;
     width:100%;
     height:100%;
     top:0px;
-    left:0px;}
+	left:0px;
+}
   
-.body_slides li{
+.body_slides li {
     width:100%;
     height:100%;
     position:absolute;
@@ -112,15 +107,16 @@ img {
     -ms-animation: anim_slides 18s linear infinite 0s;
     animation: anim_slides 18s linear infinite 0s;
 }
-.body_slides li:nth-child(1){
+
+.body_slides li:nth-child(1) {
 	background-image: url(../img/bg_1.jpg) 
 }
-.body_slides li:nth-child(2){
+.body_slides li:nth-child(2) {
 	-webkit-animation-delay: 6.0s;
 	-moz-animation-delay: 6.0s;
 	background-image: url(../img/bg_2.jpg) 
 }
-.body_slides li:nth-child(3){
+.body_slides li:nth-child(3) {
 	-webkit-animation-delay: 12.0s;
 	-moz-animation-delay: 12.0s;
 	background-image: url(../img/bg_3.jpg) 
@@ -413,79 +409,10 @@ img {
 
 /*ABOUT*/
 
-.section_2 {
-	color: #fff;
-	height: auto;
-	position: relative;
-	background-image: url("../img/section_2_bg.jpg");
-	padding-top: 25px;
-	padding-bottom: 30px;
-}
-
-.section_2 .top_description {
-	position: absolute;
-	right: 0;
-	top: 3px;
-	bottom: 0;
-	left: 0;
-	z-index: 98;
-}
-
 .clearfix {
 	clear: both;
 }
 
-.section_2_wrapper {
-	background-color: #05273b;
-	width: 96%;
-	margin:  2% auto;
-	border-left: 1px solid #003859;
-	border-right: 1px solid #003859;
-	border-bottom: 1px solid #003859;
-	position: relative;
-	z-index: 5;
-}
-
-.line_1 {
-	content: " ";
-	height: 1px;
-	width: 40%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	background-color: #003859;
-}
-
-.line_2 {
-	content: " ";
-	height: 1px;
-	width: 40%;
-	position: absolute;
-	top: 0;
-	right: 0;
-	background-color: #003859;
-}
-
-
-.left_side img {
-	display: block;
-	margin: 0 auto;	
-	width: 100%;
-}
-
-
-.right_side {
-	position: relative;
-}
-
-.right_side_inner h3 {
-	font-weight: normal;
-}
-
-.right_side_inner p {
-	text-align: justify;
-	font-size: 16px;
-}
 
 /*Section_3*/
 

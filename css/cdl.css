@@ -1,0 +1,51 @@
+
+.section_header {
+	position: relative;
+	height: 80vh;
+	width: 100%;
+}
+
+@media only screen and (max-height : 768px) {
+    .section_header {
+        min-height: 400px;
+    }
+}
+
+h2 {
+	text-align: center;
+}
+
+.section_2 {
+	color: #fff;
+	height: auto;
+	position: relative;
+	padding-top: 25px;
+	padding-bottom: 30px;
+}
+
+.section_2 .box {
+	background-color: #05273b;
+	width: 96%;
+	margin:  2% auto;
+	border: 1px solid #003859;
+}
+
+.left_side img {
+	display: block;
+	margin: 0 auto;	
+	width: 100%;
+}
+
+
+.right_side {
+	position: relative;
+}
+
+.right_side_inner h3 {
+	font-weight: normal;
+}
+
+.right_side_inner p {
+	text-align: justify;
+	font-size: 16px;
+}
