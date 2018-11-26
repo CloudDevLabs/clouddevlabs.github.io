@@ -3,54 +3,39 @@
 	margin: 0;
 }
 
-h1 {
+h1, h2, h3, h4, h5, p, a, li {
 	font-family: "AbelRegular";
 	font-weight: normal;
-	font-smooth: auto;
+	/* font-smooth: auto; */
 	-webkit-font-smoothing: antialiased;
-}
-
-h2 {
-	font-family: "AbelRegular";
-	font-weight: normal;
-	font-size: 32px;
-	font-smooth: auto;
-	-webkit-font-smoothing: antialiased ;
-}
-
-h3 {
-	font-family: "AbelRegular";
-	font-size: 26px;
-	font-smooth: auto;
-	-webkit-font-smoothing: antialiased ;
-}
-
-h4 {
-	font-family: "AbelRegular";
-	font-size: 22px;
-	font-smooth: auto;
-	-webkit-font-smoothing: antialiased ;
-}
-
-h5 {
-	font-family: "AbelRegular";
 	font-size: 18px;
-	font-weight: normal;
-	font-smooth: auto;
-	-webkit-font-smoothing: antialiased ;
 }
 
 p {
-	font-family: "AbelRegular";
-	font-size: 18px;
-	font-smooth: auto;
-	-webkit-font-smoothing: antialiased ;
+	margin-block-start: .8em;
+	margin-block-end: .8em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
 }
 
-a {
-	font-family: "AbelRegular";
-	font-smooth: auto;
-	-webkit-font-smoothing: antialiased ;
+ul {
+	padding-inline-start: 40px;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+h3 {
+	font-size: 26px;
+}
+
+h4 {
+	font-size: 22px;
+}
+
+h5 {
+	font-size: 18px;
 }
 
 a:hover {
@@ -69,8 +54,6 @@ img {
 :focus {
 	outline: none;
 }
-
-
 
 
 /*CODE*/
@@ -381,29 +364,6 @@ img {
 	     -ms-transform: translateY(0);
 	      -o-transform: translateY(0);
 	         transform: translateY(0); 
-}
-
-.box_centered {
-	width: 60%;
-	margin: auto;
-	margin-top: 20%;
-	margin-bottom: 5%;
-
-	border-radius: 8px;
-	background-color: rgba(255, 255, 255, 0.65);
-	text-align: center;
-	position: relative;
-	padding: 10px;
-	padding-top: 40px;
-}
-
-.box_centered img {
-	max-width: 300px;
-	width: 100%;
-}
-
-.box_centered h1 {
-	font-size: 36px;
 }
 
 
