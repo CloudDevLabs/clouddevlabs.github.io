@@ -2,10 +2,6 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1920px) {
-/* 
-	.right_side_inner {	
-		padding: 15% 5% 0 1%;}
- */
 	.section_2 .top_description {
 		top: 13px;
 	}
@@ -13,13 +9,6 @@
 
 
 @media only screen and (max-width : 1440px) {
-/* 
-	.right_side_inner {
-		display: inline-block;
-		padding: 8% 5% 0 1%;
-	}
- */
- 
 	.section_2 .top_description {
 		top: 7px;
 	}
@@ -51,14 +40,6 @@
 		width: 80px;
 	}
 
-}
-
-@media (min-width: 992px) and (max-width : 1077px) {
-/* 
-	.right_side_inner {
-	    line-height: 25px;
-	}
- */
 }
 
 /* Medium Devices, Desktops */
@@ -184,12 +165,7 @@
 		top: 10px;
 		text-align: center;
 	}
-/* 
-	.right_side_inner {
-		padding: 30px 40px 30px 40px;
-		text-align: center;
-	}
- */
+
 	.section_3 {
 		text-align: center;
 		float: none;
@@ -260,11 +236,7 @@
 	.box_centered h1 {
 		font-size: 26px;
 	}
-/* 
-	.right_side_inner {
-    	padding: 30px 10px;
-	}
- */
+
 	.contacts_content {
 		text-align: center;
 	}
