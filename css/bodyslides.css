@@ -43,7 +43,7 @@
 .body_slides li:nth-child(3) {
 	-webkit-animation-delay: 12.0s;
 	-moz-animation-delay: 12.0s;
-	background-image: url(../img/bg_3.jpg) 
+	background-image: url(../img/background3.jpg) 
 }
 
 @-webkit-keyframes anim_slides {
