@@ -370,10 +370,6 @@ Figure out how the mixins should work
 		width: 100%;
 	}
 
-	.section_3 h4 {
-		padding-top: 15px;
-	}
-
 	.section_3 .container:nth-of-type(odd) h4 {
 		text-align: center !important;
 	}
@@ -585,22 +581,7 @@ p.url {
 	left: 25px;
 }
 
-.contacts_content ul li:nth-child(2) img {
-    position: absolute;
-    top: 9px;
-}
-
-.contacts_content ul li:nth-child(1) img {
-    position: absolute;
-    width: 20px;
-    left: -27px;
-    top: 0;
-}
-
-.contacts_content ul li img {
-	position: absolute;
-	left: -25px;
-	top: 5px;
+.contacts_content img {
 	width: 17px;
 }
 
