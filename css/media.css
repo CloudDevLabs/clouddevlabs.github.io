@@ -25,52 +25,10 @@
 	.section_2 .top_description {
 		top: 2px;
 	}
-
-	.softw_descr ul {
-		margin-top: 60px;
-	}
-
-	.softw_descr ul li {
-		width: 80px;
-	}
-
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	.softw_descr {
-		width: 100%;
-		text-align: justify;
-		float: left;
-	}
-
-	.softw_descr ul {
-		display: table;
-		width: auto;
-		margin: 0 auto;
-		list-style-type: none;
-		padding: 0;
-		margin-top: 40px;
-		margin-bottom: 60px;
-	}
-
-	.softw_descr ul li {
-		float: left;
-		width: 106px;
-		height: 30px;
-		margin-right: 1px;
-		text-align: center;
-		position: relative;
-	}
-
-	.softw_descr ul li a {
-		position: absolute;
-		top: 0;
-		left: 0;
-		display: block;
-		text-align: center;
-	}
-
 	.header_menu ul {
 		margin-right: 10px;
 	}
@@ -178,10 +136,10 @@
 		float: none;
 	}
 
-	.section_3 h4 {
+	/* .section_3 h4 {
 	    margin-bottom: 10px;
 	    margin-top: 30px;
-	}
+	} */
 
 	.item {
 		padding-top: 50px;
@@ -250,58 +208,11 @@
 
 }
 
-@media only screen and (max-width : 600px) {
-	.softw_descr ul li {
-		width: 96px;
-	}
-}
-
-@media only screen and (max-width : 491px) {
-	.softw_descr ul li {
-		width: 70px;
-	}
-}
-
-@media only screen and (max-width : 409px) {
-	.softw_descr ul li {
-		width: 65px;
-	}
-}
-
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 484px){
 }
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width : 412px) {
-	.softw_descr ul li {
-		width: 68px;
-	}
-}
-
-@media only screen and (max-width : 360px) {
-	.softw_descr ul li {
-		width: 58px;
-	}
-}
-
-@media only screen and (max-width : 388px) {
-	.softw_descr ul li {
-		width: 61px;
-	}
-}
-
-@media only screen and (max-width : 364px) {
-	.softw_descr ul li {
-		width: 58px;
-	}
-}
-
-@media only screen and (max-width : 334px) {
-	.softw_descr ul li {
-		width: 50px;
-	}
-}
 
 @media only screen and (max-width : 341px) {
 

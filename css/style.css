@@ -20,6 +20,7 @@ p {
 
 ul {
 	padding-inline-start: 40px;
+	overflow: auto;
 }
 
 h2 {
@@ -305,15 +306,9 @@ img {
 	         transform: translateY(0); 
 }
 
-
-/*ABOUT*/
-
-.clearfix {
-	clear: both;
-}
-
-
-/*Section_3*/
+/*===========================================================*/
+/*===========================================================*/
+/*Section_3 EXPERTISE*/
 
 .border {
 	content: " ";
@@ -323,6 +318,24 @@ img {
 	background-color: #0b5783;
 	margin-bottom: 30px;
 	margin-top: 30px;
+}
+
+.section_3 .visual {
+	width: 50%;
+}
+
+@media only screen and (max-width: 992px) {
+	.section_3 .visual {
+		width: 100%;
+	}
+
+	.section_3 .container:nth-of-type(odd) h4 {
+		text-align: center !important;
+	}
+
+	.section_3 .container:nth-of-type(even) h4 {
+		text-align: center !important;
+	}
 }
 
 .section_3 {
@@ -337,60 +350,45 @@ img {
 	font-weight: normal;
 }
 
-.section_3 h4 {
-	color: #0b5783;
-	margin-bottom: 30px;
-	font-weight: normal;
-}
-
 .section_3 .top_description {
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
 
-.softw_descr p {
-	color: #000;
-}
-
-.softw_descr h4 {
-	text-align: center;
-}
-
-.softw_descr {
+.section_3 .container {
 	width: 100%;
 	text-align: justify;
-	float: left;
 }
 
-.softw_descr ul {
-	list-style-type: none;
-	padding: 0;
-	margin-top: 130px;
+.section_3 .container:nth-of-type(odd) img {
+	padding-right: 15px;
 }
 
-.softw_descr ul li {
-	float: left;
-	width: 106px;
-	margin-right: 1px;
-	text-align: center;
-	position: relative;
+.section_3 .container:nth-of-type(even) img {
+	padding-left: 15px;
 }
 
-
-.right {
-	text-align: justify;
+.section_3 h4 {
+	color: #0b5783;
+	margin-bottom: 15px;
+	font-weight: normal;
 }
 
-.right h4 {
+.section_3 .container:nth-of-type(odd) h4 {
+	text-align: left;
+}
+
+.section_3 .container:nth-of-type(even) h4 {
 	text-align: right;
 }
 
-.right_ul {
-	float: right;
+.icon {
+	height: 50px;
+	width: auto;
 }
 
-
-
+/*===========================================================*/
+/*===========================================================*/
 /*Section_4*/
 .nomargin {
 	margin: 0;
