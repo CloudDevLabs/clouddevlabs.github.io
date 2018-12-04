@@ -306,9 +306,12 @@ img {
 	         transform: translateY(0); 
 }
 
+
+
 /*===========================================================*/
 /*===========================================================*/
 /*Section_3 EXPERTISE*/
+
 
 .border {
 	content: " ";
@@ -324,19 +327,14 @@ img {
 	width: 50%;
 }
 
-@media only screen and (max-width: 992px) {
-	.section_3 .visual {
-		width: 100%;
-	}
+/* 
 
-	.section_3 .container:nth-of-type(odd) h4 {
-		text-align: center !important;
-	}
+Figure out how the mixins should work
 
-	.section_3 .container:nth-of-type(even) h4 {
-		text-align: center !important;
-	}
-}
+.section_3 .container:nth-of-type(odd) .visual {
+	.pull-left();
+} 
+*/
 
 .section_3 {
 	padding-bottom: 50px;
@@ -356,7 +354,6 @@ img {
 }
 
 .section_3 .container {
-	/* width: 100%; */
 	text-align: justify;
 }
 
@@ -366,6 +363,24 @@ img {
 
 .section_3 .container:nth-of-type(even) img {
 	padding-left: 15px;
+}
+
+@media only screen and (max-width: 992px) {
+	.section_3 .visual {
+		width: 100%;
+	}
+
+	.section_3 h4 {
+		padding-top: 15px;
+	}
+
+	.section_3 .container:nth-of-type(odd) h4 {
+		text-align: center !important;
+	}
+
+	.section_3 .container:nth-of-type(even) h4 {
+		text-align: center !important;
+	}
 }
 
 .section_3 h4 {
