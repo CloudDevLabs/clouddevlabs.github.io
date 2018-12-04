@@ -356,7 +356,7 @@ img {
 }
 
 .section_3 .container {
-	width: 100%;
+	/* width: 100%; */
 	text-align: justify;
 }
 
@@ -385,6 +385,22 @@ img {
 .icon {
 	height: 50px;
 	width: auto;
+}
+
+.icons {
+	overflow: auto;
+}
+
+.section_3 .container:nth-of-type(odd) .icons {
+	padding-left: 15px;
+}
+
+.section_3 .container:nth-of-type(even) .icons {
+	padding-right: 15px;
+}
+
+.hack-no-padding {
+	padding: 0px;
 }
 
 /*===========================================================*/
