@@ -78,7 +78,7 @@ img {
 	content: " ";
 	position: absolute;
 	left: 0;
-	top: -7px ;	
+	top: -7px ;
 }
 
 .toggle-mnu span:after {
@@ -137,7 +137,7 @@ img {
 	content: " ";
 	position: absolute;
 	left: 0;
-	top: -7px ;	
+	top: -7px ;
 }
 
 .toggle-mnu_fixed span:after {
@@ -257,7 +257,7 @@ img {
 	    -ms-transition: .3s;
 	     -o-transition: .3s;
 	        transition: .3s;
-	
+
 }
 
 .header_menu_fixed ul li a:hover {
@@ -303,7 +303,7 @@ img {
 	    -moz-transform: translateY(0);
 	     -ms-transform: translateY(0);
 	      -o-transform: translateY(0);
-	         transform: translateY(0); 
+	         transform: translateY(0);
 }
 
 
@@ -327,13 +327,13 @@ img {
 	width: 50%;
 }
 
-/* 
+/*
 
 Figure out how the mixins should work
 
 .section_3 .container:nth-of-type(odd) .visual {
 	.pull-left();
-} 
+}
 */
 
 .section_3 {
@@ -391,11 +391,6 @@ Figure out how the mixins should work
 
 .section_3 .container:nth-of-type(even) h4 {
 	text-align: right;
-}
-
-.icon {
-	height: 50px;
-	width: auto;
 }
 
 .icons {
