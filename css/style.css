@@ -462,8 +462,8 @@ p.url {
 	color: #838E95;
 }
 
-.item_img_1 {
-	background-image: url("../img/3.svg");
+.beliefs-icon-agile {
+	background-image: url("../img/icon-agile.svg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	-webkit-background-size: 50px;
@@ -474,8 +474,8 @@ p.url {
 	margin: 0 auto;
 }
 
-.item_img_2 {
-	background-image: url("../img/4.svg");
+.beliefs-icon-twelve-factor {
+	background-image: url("../img/icon-twelve-factor.svg");
 	background-repeat: no-repeat;
 	background-position: 110%top;
 	-webkit-background-size: 57px;
@@ -486,8 +486,8 @@ p.url {
 	margin: 0 auto;
 }
 
-.item_img_3 {
-	background-image: url("../img/1.svg");
+.beliefs-icon-microservices {
+	background-image: url("../img/icon-microservices.svg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	-webkit-background-size: 61px;
@@ -498,8 +498,8 @@ p.url {
 	margin: 0 auto;
 }
 
-.item_img_4 {
-	background-image: url("../img/2.svg");
+.beliefs-icon-teams {
+	background-image: url("../img/icon-fowler.svg");
 	background-repeat: no-repeat;
 	background-position: center -6px;
 	-webkit-background-size: 85px;
@@ -509,8 +509,6 @@ p.url {
 	height: 70px;
 	margin: 0 auto;
 }
-
-
 
 .item:hover {
 	background-color: #052c43;
