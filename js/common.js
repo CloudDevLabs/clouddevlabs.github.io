@@ -18,7 +18,7 @@ $(document).ready(function () {
 
 	new WOW().init();
 
-	$(".menu_inner, .menu_inner_fixed, .footer_nav").on("click","a", function (event) {
+	$(".menu_inner, .menu_inner_fixed, .footer_nav, .logo").on("click","a", function (event) {
 		event.preventDefault();
 		var id  = $(this).attr('href'),
 		top = $(id).offset().top;		
