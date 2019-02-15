@@ -56,18 +56,17 @@
   }
 
   .scroll-msg-container {
-    position: relative;
-    top: 38%;
-    text-align: center;
+    position: absolute;
+    bottom: 1vh;
+    width: 100vw;
   }
 
   .scroll-msg-inner {
-    display: inline-block;
     width: 52px;
     height: 100px;
-    position: relative;
     border-radius: 34px;
     border: 4px solid #fff;
+    margin: auto;
   }
 
   .scroll-msg-wheel {
