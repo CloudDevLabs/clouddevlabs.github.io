@@ -357,6 +357,7 @@ Figure out how the mixins should work
 	text-align: justify;
 }
 
+/*
 .section_3 .container:nth-of-type(odd) img {
 	padding-right: 15px;
 }
@@ -364,12 +365,25 @@ Figure out how the mixins should work
 .section_3 .container:nth-of-type(even) img {
 	padding-left: 15px;
 }
+*/
+
+/*===========================================================*/
+
+.section_3 .margin-left {
+	margin-left: 15px;
+}
+
+.section_3 .margin-right {
+	margin-right: 15px;
+}
+
+/*===========================================================*/
 
 @media only screen and (max-width: 992px) {
 	.section_3 .visual {
 		width: 100%;
 	}
-
+	/*
 	.section_3 .container:nth-of-type(odd) h4 {
 		text-align: center !important;
 	}
@@ -377,6 +391,11 @@ Figure out how the mixins should work
 	.section_3 .container:nth-of-type(even) h4 {
 		text-align: center !important;
 	}
+	*/
+	.section_3 h4 {
+		text-align: center !important;
+	}
+
 }
 
 .section_3 h4 {
@@ -385,6 +404,9 @@ Figure out how the mixins should work
 	font-weight: normal;
 }
 
+/*===========================================================*/
+
+/*
 .section_3 .container:nth-of-type(odd) h4 {
 	text-align: left;
 }
@@ -392,6 +414,19 @@ Figure out how the mixins should work
 .section_3 .container:nth-of-type(even) h4 {
 	text-align: right;
 }
+*/
+
+/*===========================================================*/
+
+.section_3 .align-left {
+	text-align: left;
+}
+
+.section_3 .align-right {
+	text-align: right;
+}
+
+/*===========================================================*/
 
 .icons {
 	overflow: auto;
