@@ -73,6 +73,7 @@ img {
 	margin: 25px auto 0;
 	z-index: 99;
 }
+
 .toggle-mnu span:after,
 .toggle-mnu span:before{
 	content: " ";
@@ -114,8 +115,6 @@ img {
 	transform: rotate(-45deg) translate(6px, -8px);
 }
 
-
-
 .toggle-mnu_fixed {
 	display: block;
 	float: right;
@@ -132,6 +131,7 @@ img {
 	border: none;
 	background: none;
 }
+
 .toggle-mnu_fixed span:after,
 .toggle-mnu_fixed span:before{
 	content: " ";
@@ -257,7 +257,6 @@ img {
 	    -ms-transition: .3s;
 	     -o-transition: .3s;
 	        transition: .3s;
-
 }
 
 .header_menu_fixed ul li a:hover {
@@ -307,11 +306,9 @@ img {
 }
 
 
-
 /*===========================================================*/
 /*===========================================================*/
-/*Section_3 EXPERTISE*/
-
+/* SECTION_3 */
 
 .border {
 	content: " ";
@@ -326,15 +323,6 @@ img {
 .section_3 .visual {
 	width: 50%;
 }
-
-/*
-
-Figure out how the mixins should work
-
-.section_3 .container:nth-of-type(odd) .visual {
-	.pull-left();
-}
-*/
 
 .section_3 {
 	padding-bottom: 50px;
@@ -357,16 +345,6 @@ Figure out how the mixins should work
 	text-align: justify;
 }
 
-/*
-.section_3 .container:nth-of-type(odd) img {
-	padding-right: 15px;
-}
-
-.section_3 .container:nth-of-type(even) img {
-	padding-left: 15px;
-}
-*/
-
 /*===========================================================*/
 
 .section_3 .margin-left {
@@ -383,19 +361,10 @@ Figure out how the mixins should work
 	.section_3 .visual {
 		width: 100%;
 	}
-	/*
-	.section_3 .container:nth-of-type(odd) h4 {
-		text-align: center !important;
-	}
-
-	.section_3 .container:nth-of-type(even) h4 {
-		text-align: center !important;
-	}
-	*/
+	
 	.section_3 h4 {
 		text-align: center !important;
 	}
-
 }
 
 .section_3 h4 {
@@ -403,18 +372,6 @@ Figure out how the mixins should work
 	margin-bottom: 15px;
 	font-weight: normal;
 }
-
-/*===========================================================*/
-
-/*
-.section_3 .container:nth-of-type(odd) h4 {
-	text-align: left;
-}
-
-.section_3 .container:nth-of-type(even) h4 {
-	text-align: right;
-}
-*/
 
 /*===========================================================*/
 
