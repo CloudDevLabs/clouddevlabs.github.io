@@ -1,0 +1,152 @@
+.section_4 {
+	background-color: #06314b;
+	color: #FFF;
+	position: relative;
+}
+
+.section_4 .top_description {
+	position: absolute;
+	top: 25px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 2;
+	font-size: 36px;
+	text-align: center;
+}
+@media only screen and (max-width : 992px) {
+    .section_4 .top_description {
+		position: relative;
+	}
+}
+
+.item {
+	width: 100%;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 20px;
+	-webkit-transition: .4s;
+	   -moz-transition: .4s;
+	    -ms-transition: .4s;
+	     -o-transition: .4s;
+	        transition: .4s;
+	position: relative;
+}
+
+@media only screen and (max-width : 992px) {
+    .item {
+		padding-top: 50px;
+		padding-bottom: 30px;
+	}
+}
+
+.item:hover {
+	background-color: #052c43;
+	-webkit-transition: .4s;
+	   -moz-transition: .4s;
+	    -ms-transition: .4s;
+	     -o-transition: .4s;
+	        transition: .4s;
+	cursor: pointer;
+}
+
+.item h5 {
+	padding-top: 20px;
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	-ms-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+}
+
+.item h5:hover {
+	-webkit-transform: scale(1.1);
+	   -moz-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	     -o-transform: scale(1.1);
+	        transform: scale(1.1);
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	-ms-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+}
+
+.item h5 a {
+	color: #FFF;
+}
+
+.beliefs-icon-agile {
+	background-image: url("../img/icon-agile.svg");
+	background-repeat: no-repeat;
+	background-position: top center;
+	-webkit-background-size: 50px;
+	     -o-background-size: 50px;
+	        background-size: 50px;
+	width: 70px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.beliefs-icon-twelve-factor {
+	background-image: url("../img/icon-twelve-factor.svg");
+	background-repeat: no-repeat;
+	background-position: 110%top;
+	-webkit-background-size: 57px;
+	     -o-background-size: 57px;
+	        background-size: 57px;
+	width: 70px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.beliefs-icon-microservices {
+	background-image: url("../img/icon-microservices.svg");
+	background-repeat: no-repeat;
+	background-position: top center;
+	-webkit-background-size: 61px;
+	     -o-background-size: 61px;
+	        background-size: 61px;
+	width: 70px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.beliefs-icon-teams {
+	background-image: url("../img/icon-fowler.svg");
+	background-repeat: no-repeat;
+	background-position: center -6px;
+	-webkit-background-size: 85px;
+	     -o-background-size: 85px;
+	        background-size: 85px;
+	width: 70px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.nomargin {
+	margin: 0;
+	padding: 0;
+}
+
+.little {
+	font-size: 16px;
+	text-align: justify;
+}
+
+.link a {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: transparent;
+}
+
+p.url {
+	padding-bottom: 20px;
+	font-size: 14px;
+	color: #838E95;
+}

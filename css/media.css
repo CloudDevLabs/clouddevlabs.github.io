@@ -103,14 +103,8 @@
 	}
 
 	
-	.item {
-		padding-top: 50px;
-		padding-bottom: 30px;
-	}
-
-	.section_4 .top_description {
-		position: relative;
-	}
+	
+	
 }
 
 /* Small Devices, Tablets */
@@ -140,25 +134,6 @@
 	.header_menu_fixed img {
 		margin-left: 10px;
 	}
-
-	
-	.contacts_content {
-		text-align: center;
-	}
-
-	.contacts_content h3 {
-		font-size: 18px;
-	}
-
-	.contacts_content ul {
-		display: inline-block;
-		text-align: left;
-	}
-
-	.contacts_content ul li {
-		left: 0;
-	}
-
 }
 
 /* Extra Small Devices, Phones */
