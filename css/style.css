@@ -11,6 +11,10 @@ h1, h2, h3, h4, h5, p, a, li {
 	font-size: 18px;
 }
 
+h2 {
+	text-align: center;
+}
+
 p {
 	margin-block-start: .8em;
 	margin-block-end: .8em;
@@ -304,12 +308,35 @@ img {
 	      -o-transform: translateY(0);
 	         transform: translateY(0);
 }
-
-
 /*===========================================================*/
+/* SECTION_2 */
+/*===========================================================*/
+/*
+.section_2 .top_description {
+	position: relative;
+	top: 10px;
+	text-align: center;
+}
+@media only screen and (max-width : 1920px) {
+	.section_2 .top_description {
+		top: 13px;
+	}
+}
+@media only screen and (max-width : 1440px) {
+	.section_2 .top_description {
+		top: 7px;
+	}
+}
+@media (min-width: 992px) and (max-width : 1200px) {
+	.section_2 .top_description {
+		top: 2px;
+	}
+}
+*/
 /*===========================================================*/
 /* SECTION_3 */
-
+/*===========================================================*/
+/*
 .border {
 	content: " ";
 	width: 96%;
@@ -319,91 +346,15 @@ img {
 	margin-bottom: 30px;
 	margin-top: 30px;
 }
-
-.section_3 .visual {
-	width: 50%;
-}
-
-.section_3 {
-	padding-bottom: 50px;
-}
-
-.section_3 h3 {
-	color: #0b5783;
-	text-align: center;
-	margin-bottom: 25px;
-	margin-top: 50px;
-	font-weight: normal;
-}
-
 .section_3 .top_description {
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
-
-.section_3 .container {
-	text-align: justify;
-}
-
+*/
+/*===========================================================*/
+/* SECTION_4 */
 /*===========================================================*/
 
-.section_3 .margin-left {
-	margin-left: 15px;
-}
-
-.section_3 .margin-right {
-	margin-right: 15px;
-}
-
-/*===========================================================*/
-
-@media only screen and (max-width: 992px) {
-	.section_3 .visual {
-		width: 100%;
-	}
-	
-	.section_3 h4 {
-		text-align: center !important;
-	}
-}
-
-.section_3 h4 {
-	color: #0b5783;
-	margin-bottom: 15px;
-	font-weight: normal;
-}
-
-/*===========================================================*/
-
-.section_3 .align-left {
-	text-align: left;
-}
-
-.section_3 .align-right {
-	text-align: right;
-}
-
-/*===========================================================*/
-
-.icons {
-	overflow: auto;
-}
-
-.section_3 .container:nth-of-type(odd) .icons {
-	padding-left: 15px;
-}
-
-.section_3 .container:nth-of-type(even) .icons {
-	padding-right: 15px;
-}
-
-.hack-no-padding {
-	padding: 0px;
-}
-
-/*===========================================================*/
-/*===========================================================*/
-/*Section_4*/
 .nomargin {
 	margin: 0;
 	padding: 0;
@@ -576,7 +527,7 @@ p.url {
 }
 
 /*FOOTER*/
-
+/*
 .footer {
 	background-color: #bfc7cb;
 }
@@ -617,3 +568,4 @@ p.url {
 	        transition: .3s;
 	display: block;
 }
+*/
