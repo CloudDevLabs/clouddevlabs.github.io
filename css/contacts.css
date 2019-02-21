@@ -1,53 +1,19 @@
-.contacts {
+#contacts {
 	color: #FFF;
 	padding-bottom: 30px;
 	padding-top: 25px;
-	background-image: url("../img/bg_contacts.jpg");
-	background-position: center center;
 }
 
-.contacts .top_description {
-	font-size: 36px;
-	text-align: center;
+#contacts .content img {
+	width: 18px;
 }
 
-.contacts_inner {
-	z-index: 98;
-}
-
-.contacts_content ul {
-	list-style-type: none;
-}
-
-.contacts_content ul li {
-	position: relative;
-	left: 25px;
-}
-
-.contacts_content img {
-	width: 17px;
-}
-
-.contacts_content h3 {
-	font-weight: normal;
+#contacts .content h3 {
 	margin-bottom: 20px;
 }
 
 @media only screen and (max-width : 768px) {
-    .contacts_content {
+    #contacts .content p {
 		text-align: center;
-	}
-
-	.contacts_content h3 {
-		font-size: 18px;
-	}
-
-	.contacts_content ul {
-		display: inline-block;
-		text-align: left;
-	}
-
-	.contacts_content ul li {
-		left: 0;
 	}
 }

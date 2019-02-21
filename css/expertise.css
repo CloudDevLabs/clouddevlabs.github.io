@@ -1,0 +1,50 @@
+#expertise {
+    padding-bottom: 50px;
+}
+
+#expertise .container {
+	text-align: justify;
+}
+
+#expertise .half-width {
+	width: 50%;
+}
+
+#expertise h3 {
+	color: #0b5783;
+	margin-bottom: 25px;
+	margin-top: 50px;
+}
+
+#expertise h4 {
+	color: #0b5783;
+	margin-bottom: 15px;
+}
+#expertise .margin-left {
+	margin-left: 15px;
+}
+
+#expertise .margin-right {
+	margin-right: 15px;
+}
+
+#expertise .align-left {
+	text-align: left;
+}
+
+#expertise .align-right {
+	text-align: right;
+}
+
+@media only screen and (max-width: 992px) {
+	#expertise .half-width {
+		width: 100%;
+	}
+	#expertise .align-left {
+		text-align: center;
+	}
+	
+	#expertise .align-right {
+		text-align: center;
+	}
+}

@@ -16,18 +16,16 @@
 	text-align: center;
 }
 
+.section_2 .brain {
+	position: absolute;
+	top: 60px;
+	left: -5%;
+	width: 110%;
+}
+
 @media only screen and (max-width : 992px) {
 	.section_2 .brain {
 		max-width: 300px;
 		height: auto;
-	}
-}
-
-@media only screen and (min-width : 992px) {
-	.section_2 .brain {
-		position: absolute;
-		top: 60px;
-		left: -5%;
-		width: 110%;
 	}
 }
