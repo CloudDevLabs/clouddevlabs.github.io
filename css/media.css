@@ -3,19 +3,19 @@
 /* Large Devices, Wide Screens */
 
 /*@media only screen and (max-width : 1920px) {
-	.section_2 .top_description {
+	#about_us .top_description {
 		top: 13px;
 	}
 }
 
 
 @media only screen and (max-width : 1440px) {
-	.section_2 .top_description {
+	#about_us .top_description {
 		top: 7px;
 	}
 }
 @media (min-width: 992px) and (max-width : 1200px) {
-	.section_2 .top_description {
+	#about_us .top_description {
 		top: 2px;
 	}
 }

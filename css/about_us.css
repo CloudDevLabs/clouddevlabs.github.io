@@ -1,0 +1,38 @@
+#about_us {
+	color: #fff;
+	padding-top: 25px;
+	padding-bottom: 30px;
+}
+#about_us .container {
+	text-align: justify;
+}
+
+#about_us h2 {
+	margin-bottom: 15px;
+}
+
+#about_us .centered {
+	text-align: center;
+}
+
+@media only screen and (min-width : 1200px) {
+	#about_us img {
+		position: relative;
+		top: 20px;
+		width: 110%;
+	}
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1200px) {
+	#about_us img {
+		position: relative;
+		top: 60px;
+		width: 110%;
+	}
+}
+
+@media only screen and (max-width : 992px) {
+	#about_us img {
+		max-width: 300px;
+	}
+}
