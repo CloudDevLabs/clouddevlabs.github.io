@@ -8,18 +8,18 @@
 
 .section_2 .box {
 	padding-top: 15px;
-	background-color: #05273b;
-	border: 1px solid #003859;
+	/* background-color: #05273b;
+	border: 1px solid #003859; */
 }
 
 .section_2 .centered {
 	text-align: center;
 }
 
-@media only screen and (min-width : 993px) {
+@media only screen and (min-width : 1201px) {
 	.section_2 .brain {
 		position: absolute;
-		top: 60px;
+		top: 20px;
 		left: -5%;
 		width: 110%;
 	}
@@ -28,5 +28,13 @@
 	.section_2 .brain {
 		max-width: 300px;
 		height: auto;
+	}
+}
+@media only screen and (min-width : 993px) and (max-width : 1200px) {
+	.section_2 .brain {
+		position: absolute;
+		top: 60px;
+		left: -5%;
+		width: 110%;
 	}
 }
