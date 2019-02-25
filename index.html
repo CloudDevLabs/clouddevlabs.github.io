@@ -8,16 +8,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="stylesheet" href="libs/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="libs/animate/animate.css">
-	<link rel="stylesheet" href="css/bodyslides.css">
+
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
 	<link rel="stylesheet" href="css/fonts.css">
-	<link rel="stylesheet" href="css/mouse.css">
-
+	
 	<link rel="stylesheet" href="css/section_header.css">
+	<link rel="stylesheet" href="css/bodyslides.css">
+
+	<link rel="stylesheet" href="css/mouse.css">
 	<link rel="stylesheet" href="css/about_us.css">
 	<link rel="stylesheet" href="css/expertise.css">
-	<link rel="stylesheet" href="css/section_4.css">
+	<link rel="stylesheet" href="css/beliefs.css">
 	<link rel="stylesheet" href="css/contacts.css">
 </head>
 
@@ -37,7 +39,7 @@
 						<div class="border_menu hidden-md hidden-lg"></div>
 						<li><a href="#expertise">EXPERTISE</a></li>
 						<div class="border_menu hidden-md hidden-lg"></div>
-						<li><a href="#section_4">BELIEFS</a></li>
+						<li><a href="#beliefs">BELIEFS</a></li>
 						<div class="border_menu hidden-md hidden-lg"></div>
 						<li><a href="#contacts">CONTACTS</a></li>
 					</ul>
@@ -58,7 +60,7 @@
 						<div class="border_menu hidden-md hidden-lg"></div>
 						<li><a href="#expertise">EXPERTISE</a></li>
 						<div class="border_menu hidden-md hidden-lg"></div>
-						<li><a href="#section_4">BELIEFS</a></li>
+						<li><a href="#beliefs">BELIEFS</a></li>
 						<div class="border_menu hidden-md hidden-lg"></div>
 						<li><a href="#contacts">CONTACTS</a></li>
 					</ul>
@@ -272,94 +274,87 @@
 
 	</div>
 
-	<div class="section_4" id="section_4">
+	<div id="beliefs">
 		
 		<div class="container">
 
 			<h2>BELIEFS</h2>
 
 			<div class="row">
-				<div class="col-md-3 col-sm-6 nomargin fadeIn wow" data-wow-duration="2s" data-wow-delay=".5s">
-					<a href="http://agilemanifesto.org/" target="blank">
-						<div class="item">
-							<div class="beliefs-icon-agile"></div>
-							<h5>Agile Manifesto</h5>
-							<p class="url">http://agilemanifesto.org</p>
-							<p class="little">
-								●&nbsp;Individuals and interactions over processes and tools<br>
-								●&nbsp;Working software over comprehensive documentation<br>
-								●&nbsp;Customer collaboration over contract negotiation<br>
-								●&nbsp;Responding to change over following a plan.<br>
-								<br>
-								That is, while there is value in the items on
-								the right, we value the items on the left more.
-							</p>
-						</div>
-					</a>
-				</div>
 
-				<div class="col-md-3 col-sm-6 nomargin fadeIn wow"  data-wow-duration="2s" data-wow-delay="1s">
-					<a href="https://12factor.net/" target="blank">
-						<div class="item">
-							<div class="beliefs-icon-twelve-factor"></div>
-							<h5>The Twelve-Factor App</h5>
-							<p class="url">https://12factor.net</p>
-							<p class="little">
-								In the modern era, software is commonly delivered as a service:
-								called web apps, or software-as-a-service. The twelve-factor app
-								is a methodology for building software-as-a-service apps.<br>
-								<br>
-								The twelve-factor methodology can be applied to apps written in
-								any programming language, and which use any combination of backing
-								services (database, queue, memory cache, etc).
-							</p>
-						</div>
-					</a>
-				</div>
+				<a href="http://agilemanifesto.org/" target="blank">
+					<div class="col-md-3 col-sm-6 item fadeIn wow" data-wow-duration="2s" data-wow-delay=".5s">
+						<img src="img/icon-agile.svg"/>
+						<h5>Agile Manifesto</h5>
+						<p class="url">http://agilemanifesto.org</p>
+						<p class="little">
+							●&nbsp;Individuals and interactions over processes and tools<br>
+							●&nbsp;Working software over comprehensive documentation<br>
+							●&nbsp;Customer collaboration over contract negotiation<br>
+							●&nbsp;Responding to change over following a plan.<br>
+							<br>
+							That is, while there is value in the items on
+							the right, we value the items on the left more.
+						</p>
+					</div>
+				</a>
 
-				<div class="col-md-3 col-sm-6 nomargin fadeIn wow" data-wow-duration="2s" data-wow-delay="1.5s">
-					<a href="http://microservices.io/" target="blank">
-						<div class="item">
-							<div class="beliefs-icon-microservices"></div>
-							<h5>Microservices Architecture</h5>
-							<p class="url">http://microservices.io</p>
-							<p class="little">
-								Microservices - also known as the microservice architecture - is
-								an architectural style that structures an application as a collection
-								of services that are<br>
-								●&nbsp;Highly maintainable and testable <br>
-								●&nbsp;Loosely coupled<br>
-								●&nbsp;Independently deployable<br>
-								●&nbsp;Organized around business capabilities<br>
-								<br>
-								The microservice architecture enables the continuous delivery/deployment
-								of large, complex applications. It also enables an organization to evolve its technology stack.
-							</p>
-						</div>
-					</a>
-				</div>
+				<a href="https://12factor.net/" target="blank">
+					<div class="col-md-3 col-sm-6 item fadeIn wow"  data-wow-duration="2s" data-wow-delay="1s">
+						<img src="img/icon-twelve-factor.svg"/>
+						<h5>The Twelve-Factor App</h5>
+						<p class="url">https://12factor.net</p>
+						<p class="little">
+							In the modern era, software is commonly delivered as a service:
+							called web apps, or software-as-a-service. The twelve-factor app
+							is a methodology for building software-as-a-service apps.<br>
+							<br>
+							The twelve-factor methodology can be applied to apps written in
+							any programming language, and which use any combination of backing
+							services (database, queue, memory cache, etc).
+						</p>
+					</div>
+				</a>
 
-				<div class="col-md-3 col-sm-6 nomargin fadeIn wow" data-wow-duration="2s" data-wow-delay="2s">
-					<a href="https://martinfowler.com/articles/remote-or-co-located.html" target="blank">
-						<div class="item">
-							<div class="beliefs-icon-teams"></div>
-							<h5>Remote & co-located teams</h5>
-							<p class="url">https://martinfowler.com</p>
-							<p class="little">
-								There isn't a simple dichotomy of remote versus co-located work,
-								instead there are several patterns of distribution for teams
-								each of which has different trade-offs and effective techniques
-								suitable for them. While it's impossible to determine conclusive
-								evidence, my sense is that most groups are more productive working
-								in a co-located manner. <br>
-								<br>
-								But you can build a more productive team
-								by using a distributed working model, because it gives you
-								access to a wider talent pool.
-							</p>
-						</div>
-					</a>
-				</div>
+				<a href="http://microservices.io/" target="blank">
+					<div class="col-md-3 col-sm-6 item fadeIn wow" data-wow-duration="2s" data-wow-delay="1.5s">
+						<img src="img/icon-microservices.svg"/>
+						<h5>Microservices Architecture</h5>
+						<p class="url">http://microservices.io</p>
+						<p class="little">
+							Microservices - also known as the microservice architecture - is
+							an architectural style that structures an application as a collection
+							of services that are<br>
+							●&nbsp;Highly maintainable and testable <br>
+							●&nbsp;Loosely coupled<br>
+							●&nbsp;Independently deployable<br>
+							●&nbsp;Organized around business capabilities<br>
+							<br>
+							The microservice architecture enables the continuous delivery/deployment
+							of large, complex applications. It also enables an organization to evolve its technology stack.
+						</p>
+					</div>
+				</a>
+				
+				<a href="https://martinfowler.com/articles/remote-or-co-located.html" target="blank">
+					<div class="col-md-3 col-sm-6 item fadeIn wow" data-wow-duration="2s" data-wow-delay="2s">
+						<img src="img/icon-fowler.svg"/>
+						<h5>Remote & co-located teams</h5>
+						<p class="url">https://martinfowler.com</p>
+						<p class="little">
+							There isn't a simple dichotomy of remote versus co-located work,
+							instead there are several patterns of distribution for teams
+							each of which has different trade-offs and effective techniques
+							suitable for them. While it's impossible to determine conclusive
+							evidence, my sense is that most groups are more productive working
+							in a co-located manner. <br>
+							<br>
+							But you can build a more productive team
+							by using a distributed working model, because it gives you
+							access to a wider talent pool.
+						</p>
+					</div>
+				</a>
 			</div>
 
 		</div>
