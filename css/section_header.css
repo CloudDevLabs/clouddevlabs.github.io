@@ -11,8 +11,6 @@
 }
 
 .section_header .box_centered {
-	/* width: 60%;
-	min-width: 680px; */
 	max-width: 680px;
 	margin: auto;
 	margin-top: 15%;
