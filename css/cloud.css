@@ -1,0 +1,42 @@
+#cloud {
+	height: 100vh;
+	width: 100%;
+}
+
+#cloud .box-container{
+	position: absolute;
+	bottom: 50%;
+	width: 100%;
+}
+
+#cloud .box-inner {
+	max-width: 680px;
+	margin: auto;
+    border-radius: 8px;
+	background-color: rgba(200, 200, 200, 0.6);
+	text-align: center;
+	padding: 10px;
+	padding-top: 40px;
+}
+
+#cloud .box-inner img {
+	max-width: 400px;
+}
+
+#cloud .box-inner h1 {
+	font-size: 36px;
+}
+
+@media only screen and (max-width : 768px) {
+    #cloud .box-inner {
+		width: 70%;
+	}
+
+	#cloud .box-inner img {
+		max-width: 290px;
+	}
+
+	#cloud .box-inner h1 {
+		font-size: 26px;
+    }
+}
