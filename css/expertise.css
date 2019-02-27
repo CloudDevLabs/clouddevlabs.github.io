@@ -37,6 +37,14 @@
 	text-align: right;
 }
 
+#expertise .clear-left {
+	clear: left;
+}
+
+#expertise .clear-right {
+	clear: right;
+}
+
 @media only screen and (max-width: 992px) {
 	#expertise .half-width {
 		width: 100%;
