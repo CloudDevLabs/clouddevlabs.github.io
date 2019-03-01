@@ -1,24 +1,28 @@
 $(document).ready(function () {
 
 	var options = {
- 	 	offset: 450
+		offset: 450	  
 	}
-	var header = new Headhesive('.header_menu_fixed', '.menu_inner_fixed', options);
+	
+	var header = new Headhesive(".header_menu", options);
 
+	//var header = new Headhesive('.header_menu_fixed', '.inner_menu_fixed', options);
 
-	$(".toggle-mnu").click(function() {
+	$(".toggle_menu").click(function() {
 		$(this).toggleClass("on");
-		$(".menu_inner").slideToggle();
+		$(".inner_menu").slideToggle();
 	});
 
-	$(".toggle-mnu_fixed").click(function() {
-		$(this).toggleClass("on");
-		$(".menu_inner_fixed").slideToggle();
-	});
+	// $(".toggle_menu_fixed").click(function() {
+	// 	$(this).toggleClass("on");
+	// 	$(".inner_menu_fixed").slideToggle();
+	// });
 
 	new WOW().init();
 
-	$(".menu_inner, .menu_inner_fixed, .footer_nav, .logo").on("click","a", function (event) {
+	//$(".inner_menu, .inner_menu_fixed, .logo").on("click","a", function (event) {
+		
+	$(".inner_menu, .logo").on("click","a", function (event) {
 		event.preventDefault();
 		var id  = $(this).attr('href'),
 		top = $(id).offset().top;		
