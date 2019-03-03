@@ -21,13 +21,6 @@ $(document).ready(function () {
 		}
 	});
 
-	// $(window).scroll(function() {
-	// 	if($(".toggle_menu").css("display") === "block"){
-	// 		$(".toggle_menu").removeClass("on");
-	// 		$(".inner_menu").slideUp();
-	// 	}
-	// });
-
 	$(".header_menu").on("click","a", function (event) {
 		event.preventDefault();
 		var id  = $(this).attr('href');
