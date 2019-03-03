@@ -6,6 +6,9 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<script src="libs/jquery/jquery-2.1.3.min.js"></script>
+	
 	<link rel="stylesheet" href="libs/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="libs/animate/animate.css">
 
@@ -20,50 +23,27 @@
 	<link rel="stylesheet" href="css/expertise.css">
 	<link rel="stylesheet" href="css/beliefs.css">
 	<link rel="stylesheet" href="css/contacts.css">
+
 </head>
 
 <body>
 
+	<div class="header_menu">	
+		<a href="#cloud"><img src="img/logo.svg" alt=""/></a>
+		<ul class="inner_menu">
+			<li><a href="#about_us">ABOUT US</a></li>
+			<div class="border_menu hidden-md hidden-lg"></div>
+			<li><a href="#expertise">EXPERTISE</a></li>
+			<div class="border_menu hidden-md hidden-lg"></div>
+			<li><a href="#beliefs">BELIEFS</a></li>
+			<div class="border_menu hidden-md hidden-lg"></div>
+			<li><a href="#contacts">CONTACTS</a></li>
+		</ul>
+		<button class="toggle_menu hidden-lg hidden-md"><span></span></button>
+	</div>
+
 	<div id="cloud">
 
-		<div class="header_menu">
-			<div class="container-fluid">
-				<div class="row">
-					<ul class="inner_menu">
-						<li><a href="#about_us">ABOUT US</a></li>
-						<div class="border_menu hidden-md hidden-lg"></div>
-						<li><a href="#expertise">EXPERTISE</a></li>
-						<div class="border_menu hidden-md hidden-lg"></div>
-						<li><a href="#beliefs">BELIEFS</a></li>
-						<div class="border_menu hidden-md hidden-lg"></div>
-						<li><a href="#contacts">CONTACTS</a></li>
-					</ul>
-					<!-- <button class="toggle_menu hidden-lg hidden-md"><span></span></button> -->
-					<a href="#" class="toggle_menu hidden-lg hidden-md"><span></span></a>
-				</div>
-			</div>
-		</div>
-
-		<!-- <div class="header_menu_fixed">
-			<div class="container-fluid">
-				<div class="row">
-					<span class="logo">
-						<a href="#cloud"><img src="img/logo.svg" alt=""/></a>
-					</span>
-					<ul class="inner_menu_fixed">
-						<li><a href="#about_us">ABOUT US</a></li>
-						<div class="border_menu hidden-md hidden-lg"></div>
-						<li><a href="#expertise">EXPERTISE</a></li>
-						<div class="border_menu hidden-md hidden-lg"></div>
-						<li><a href="#beliefs">BELIEFS</a></li>
-						<div class="border_menu hidden-md hidden-lg"></div>
-						<li><a href="#contacts">CONTACTS</a></li>
-					</ul>
-					<button class="toggle_menu_fixed hidden-lg hidden-md"><span></span></button>
-				</div>
-			</div>
-		</div> -->
-		
 		<ul class="body-slides">
 			<li></li>
 			<li></li>
@@ -347,10 +327,8 @@
 
 	</div>
 
-	<script src="libs/jquery/jquery-2.1.3.min.js"></script>
 	<script src="js/common.js"></script>
 	<script src="js/parallax.min.js"></script>
-	<script src="js/headhesive.min.js"></script>
 	<script src="js/wow.min.js"></script>
 
 </body>
