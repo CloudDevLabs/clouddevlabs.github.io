@@ -24,7 +24,7 @@ $(document).ready(function () {
 	$("#header_menu").on("click","a", function (event) {
 		event.preventDefault();
 		var id  = $(this).attr('href');
-		var top = $(id).offset().top - 59;		
+		var top = $(id).offset().top + ( id === "#cloud" ? 0 : -59 );		
 		$("body, html").animate({scrollTop: top}, 1000);
 	});
 });

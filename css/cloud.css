@@ -1,4 +1,5 @@
 #cloud {
+	position: relative;
 	height: 100vh;
 	width: 100%;
 }
@@ -39,4 +40,9 @@
 	#cloud .box-inner h1 {
 		font-size: 26px;
     }
+}
+@media only screen and (max-height : 645px) {
+	#cloud .box-container{
+		top: 70px;
+	}
 }
