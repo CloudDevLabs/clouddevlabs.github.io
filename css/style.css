@@ -6,7 +6,6 @@
 h1, h2, h3, h4, h5, p, a, li {
 	font-family: "AbelRegular";
 	font-weight: normal;
-	/* font-smooth: auto; */
 	-webkit-font-smoothing: antialiased;
 }
 
