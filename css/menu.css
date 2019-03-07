@@ -3,15 +3,14 @@
 	position: fixed;
     height: 60px;
 	width: 100%;
-	background-color: rgba(255, 255, 255, 0.84);
+	background-color: #fff;
     z-index: 1;
 }
 
 #header_menu img {
 	width: 185px;
 	margin-left: 150px;
-	margin-top: 6px;
-	margin-bottom: 6px;
+	margin-top:10px;
 }
 /**************************************************************************/
 
@@ -76,7 +75,7 @@
 		position: absolute;
 		top: 70px;
 		float: right;
-		background-color: rgba(255, 255, 255, 0.74);
+		background-color: #fff;
 	} 
 
 	#inner_menu li {
