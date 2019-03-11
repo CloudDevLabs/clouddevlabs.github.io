@@ -12,6 +12,9 @@
 #contacts .content h3 {
 	margin-bottom: 20px;
 }
+#contacts a {
+	color: inherit;
+}
 
 @media only screen and (max-width : 768px) {
     #contacts .content p {
