@@ -51,6 +51,20 @@
 	background-image: url(../img/body-slide-3.jpg) 
 }
 
+@media  only screen and (max-width : 768px) {
+	.body-slides li:nth-child(1) {
+		background-image: url(../img/body-slide-mobile-1.jpg) 
+	}
+
+	.body-slides li:nth-child(2) {
+		background-image: url(../img/body-slide-mobile-2.jpg) 
+	}
+
+	.body-slides li:nth-child(3) {
+		background-image: url(../img/body-slide-mobile-3.jpg) 
+	}
+}
+
 @keyframes anim_slides {
 	0% {opacity:1;}
 	33% {opacity:1;}
