@@ -22,12 +22,15 @@
 	color: #0b5783;
 	margin-bottom: 15px;
 }
-#expertise .margin-left {
-	margin-left: 15px;
+
+#expertise .illustration-right {
+	margin-left: 30px;
+	margin-bottom: 20px;
 }
 
-#expertise .margin-right {
-	margin-right: 15px;
+#expertise .illustration-left {
+	margin-right: 30px;
+	margin-bottom: 20px;
 }
 
 #expertise .align-left {
@@ -53,7 +56,7 @@
 	#expertise .align-left {
 		text-align: center;
 	}
-	
+
 	#expertise .align-right {
 		text-align: center;
 	}
